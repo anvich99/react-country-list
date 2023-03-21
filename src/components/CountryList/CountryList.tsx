@@ -7,7 +7,7 @@ interface CountryListProps {
 export const CountryList = ({contries}:CountryListProps) => {
   return (
     <ul className="list-group">
-      { contries.map((country) => <CountryItem info = {country}/>)}
+      { contries.map((country) => <CountryItem infoCountry = {country}/>)}
     </ul>
   )
 }
